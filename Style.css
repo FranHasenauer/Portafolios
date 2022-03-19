@@ -10,6 +10,9 @@ body {
     box-sizing: border-box;
     filter: blur(4px);
 }
+.card-body {
+    padding: 2rem 1rem;
+}
 .bg-text {
     color: rgb(68, 19, 4);
     font-weight: bold;
@@ -22,7 +25,23 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Hurricane', cursive;
+}
+.custom-section { 
+    padding-top: 2rem;
+    width: 18rem;
+    height: 18rem;
+}
+.img-card {
+    width: 80%;
+    height: 80%;
+    
+}
+.card-title {
+    font-family: 'League Gothic', sans-serif;
+}
+.card-text {
+    font-family: 'Ramaraja', serif;
 }
 footer {
     background-color: rgb(230, 100, 60);
@@ -31,6 +50,8 @@ footer {
     margin-top: 40px;
 }
 .home {
-    background-image: url("Img/banner-kanagawa.jpg");
+    background-image: url("Img/BannerFox.jpg");
+    max-width: 100%;
+    max-height: 100%;
     
 }
