@@ -5,168 +5,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=League+Gothic&family=Ramaraja&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hurricane&family=League+Gothic&family=Ramaraja&family=Shizuru&family=Red+Hat+Mono&display=swap"
         rel="stylesheet">
     <!-- AOS Scroll Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Portafolios con Bootstrap</title>
-    <link rel="stylesheet" href="Style.css">
+    <!-- Font Awesome Library -->
+    <script src="https://kit.fontawesome.com/ca9d0b207b.js" crossorigin="anonymous"></script>
+    <title>Portafolios</title>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a target="_blank" class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
-                <img src="Img/ArgP-Logo.png" alt="" width="50" height="44">
+    <main class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a target="_blank" class="navbar-brand boton-nav" href="https://argentinaprograma.inti.gob.ar/">
+                    <img src="Img/ArgP-Logo.png" alt="" width="50" height="44">
+                </a>
                 Arg. Programa
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#quienSoy">¿Quien soy?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#misProyectos">Proyectos</a>
-                    </li>
-                </ul>
-                <a target="_blank" class="navbar-brand" href="https://www.facebook.com/fran.hasenauer/">
-                    <img src="Img/F-Logo.png" alt="" width="50" height="44">
-                </a>
-                <a target="_blank" class="navbar-brand" href="https://www.instagram.com/fran.hasenauer/">
-                    <img src="Img/I-Logo.png" alt="" width="50" height="44">
-                </a>
-                <input class="btn btn-light" type="submit" value="Login">
-            </div>
-        </div>
-    </nav>
-    <div class="bg home">
 
-    </div>
-    <div class="container-sm">
-
-        <h2 id="quienSoy" class="sub-text">¿Quien soy?</h2>
-        <div class="d-flex align-items-lg-start">
-            <img src="Img/img-perfil.jpg" alt="" class="img-perfil border border-4">
-            <div class="Text-name text-start text-lg-start pt-4">
-                <p class="fs-1 fw-bold mb-0 ">Francisco Hasenauer</p>
-                <p class="fs-3 mt-0">Full Stack Developer Jr.</p>
-                <p>Mucho tiempo trabaje en atencion al publico, correspondiente al sector funerario, esto potenciò la
-                    empatia
-                    y la solidaridad.Tengo buena predisposicion al trabajo en equipo y mucha calidad humana.
-                    Con respecto a lo tecnico, soy autodidacta, siempe buscando aprender cosas nuevas, me considero un
-                    eterno estudiante.</p>
-            </div>
-        </div>
-    </div>
-    <section id="misProyectos" class="container">
-        <h2 class="sub-text">Mis proyectos</h2>
-
-        <div class="row">
-            <div class="col-md custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
-                data-aos-offset="300" data-aos-duration="1000">
-                <img src="Img/card1.jpg" alt="..." class="img-card">
-            </div>
-            <div class="col-md">
-                <div class="card-body">
-                    <h5 class="card-title">Pagina cocina restaurant</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
-                        cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
-                        necessitatibus id veniam eveniet culpa sunt at porro fugiat.</p>
-                    <a target="_blank" href="https://www.confiesoquecocino.com/" class="btn btn-secondary">Visita el
-                        sitio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#quienSoy">¿Quien soy?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#misProyectos">Proyectos</a>
+                        </li>
+                    </ul>
+                    <button class="switch" id="switch">
+                        <span><i class="fa-regular fa-sun"></i></span>
+                        <span><i class="fa-regular fa-moon"></i></span>
+                    </button>
+                    <a target="_blank" class="navbar-brand" href="https://www.facebook.com/fran.hasenauer/">
+                        <img src="Img/F-Logo.png" alt="" width="50" height="44">
+                    </a>
+                    <a target="_blank" class="navbar-brand" href="https://www.instagram.com/fran.hasenauer/">
+                        <img src="Img/I-Logo.png" alt="" width="50" height="44">
+                    </a>
+                    <input class="btn btn-light" type="submit" value="Login">
 
                 </div>
             </div>
+        </nav>
+        <div class="container bg home">
+            <div class="col-12"></div>
         </div>
-
-    </section>
-    <section class="container">
-        <div class="row">
-
-            <div class="col-md">
-                <div class="card-body">
-                    <h5 class="card-title">Blog de musica</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
-                        cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
-                        necessitatibus id veniam eveniet culpa sunt at porro fugiat. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Eligendi necessitatibus a ad, ipsa nihil odio.</p>
-                    <a target="_blank" href="https://caminantesdelpunk.blogspot.com/" class="btn btn-secondary">Visita
-                        el sitio</a>
-
-                </div>
-            </div>
-            <div class="col-md custom-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                data-aos-offset="300" data-aos-duration="1000">
-                <img src="Img/card2.jpg" alt="..." class="img-card">
-            </div>
-        </div>
-    </section>
-    <section class="container">
-        <div class="row">
-            <div class="col-md custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
-                data-aos-offset="300" data-aos-duration="1000">
-                <img src="Img/card3.jpeg" alt="..." class="img-card">
-            </div>
-            <div class="col-md">
-                <div class="card-body">
-                    <h5 class="card-title">Calculadora</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
-                        cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
-                        necessitatibus id veniam eveniet culpa sunt at porro fugiat. Lorem ipsum dolor sit amet.
-                        Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Vitae, praesentium dolore et quia
-                        repellendus
-                        quis.</p>
-                    <a target="_blank" href="https://calculadora.name/" class="btn btn-secondary">Visita el
-                        sitio</a>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="container">
-        <div class="row">
-
-            <div class="col-md">
-                <div class="card-body">
-                    <h5 class="card-title">Juegos online</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
-                        cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
-                        necessitatibus id veniam eveniet culpa sunt at porro fugiat.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, facere? Porro dolore velit,
-                        modi
-                        eaque labore cum dolorum fugiat quaerat minus obcaecati molestias id quia quasi ratione
-                        temporibus mollitia consequuntur.</p>
-                    <a target="_blank" href="https://poki.com/es" class="btn btn-secondary">Visita el sitio</a>
-
-                </div>
-            </div>
-            <div class="col-md custom-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                data-aos-offset="300" data-aos-duration="1000">
-                <img src="Img/card4.png" alt="..." class="img-card">
-            </div>
-        </div>
-    </section>
-    <footer>
         <div class="container">
-            <p>&copy; Fran Hasenuer</p>
+            <div class="separador">
+                <h2 id="quienSoy" class="sub-text">¿Quien soy?</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="Img/img-perfil.jpg" alt="" class="img-perfil border border-4">
+                </div><!--  -->
+                <div class="col-12 col-lg-8 pt-4 central-text ">
+
+                    <p class="fs-2 fw-bold mb-0 ">Francisco Hasenauer</p>
+                    <p class="fs-5 mt-0">Full Stack Developer Jr.</p>
+                    <p>Mucho tiempo trabaje en atencion al publico, correspondiente al sector funerario, esto potenciò
+                        la
+                        empatia
+                        y la solidaridad.Tengo buena predisposicion al trabajo en equipo y mucha calidad humana.
+                        Con respecto a lo tecnico, soy autodidacta, siempe buscando aprender cosas nuevas, me considero
+                        un
+                        eterno estudiante.
+                    </p>
+
+                </div>
+            </div>
         </div>
-    </footer>
+
+        <section id="misProyectos" class="container">
+            <div class="separador">
+                <h2 class="sub-text">Mis proyectos</h2>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-offset="300" data-aos-duration="1000">
+                    <img src="Img/card1.jpg" alt="..." class="img-card">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Pagina cocina restaurant</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
+                            cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
+                            necessitatibus id veniam eveniet culpa sunt at porro fugiat.</p>
+                        <a target="_blank" href="https://www.confiesoquecocino.com/" class="btn btn-secondary">Visita el
+                            sitio</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog de musica</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
+                            cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
+                            necessitatibus id veniam eveniet culpa sunt at porro fugiat. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Eligendi necessitatibus a ad, ipsa nihil odio.</p>
+                        <a target="_blank" href="https://caminantesdelpunk.blogspot.com/"
+                            class="btn btn-secondary">Visita
+                            el sitio</a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 custom-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-offset="300" data-aos-duration="1000">
+                    <img src="Img/card2.jpg" alt="..." class="img-card">
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-offset="300" data-aos-duration="1000">
+                    <img src="Img/card3.jpeg" alt="..." class="img-card">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
+                            cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
+                            necessitatibus id veniam eveniet culpa sunt at porro fugiat. Lorem ipsum dolor sit amet.
+                            Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Vitae, praesentium dolore et quia
+                            repellendus
+                            quis.</p>
+                        <a target="_blank" href="https://calculadora.name/" class="btn btn-secondary">Visita el
+                            sitio</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Juegos online</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora neque id
+                            cumque minima! Sequi cumque asperiores, nulla placeat quibusdam reiciendis ratione
+                            necessitatibus id veniam eveniet culpa sunt at porro fugiat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, facere? Porro dolore velit,
+                            modi
+                            eaque labore cum dolorum fugiat quaerat minus obcaecati molestias id quia quasi ratione
+                            temporibus mollitia consequuntur.</p>
+                        <a target="_blank" href="https://poki.com/es" class="btn btn-secondary">Visita el sitio</a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 custom-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-offset="300" data-aos-duration="1000">
+                    <img src="Img/card4.png" alt="..." class="img-card">
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-offset="300" data-aos-duration="1000">
+                    <img src="Img/card5.png" alt="..." class="img-card">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi portafolios</h5>
+                        <p class="card-text">Poniendo a prueba y usando todo lo aprendido, fui creando mi propio
+                            portafolios
+                            web, usando Html,Css,Js y librerias como bootstrap, AOS,google font,</p>
+                        <a target="_blank" href="file:///D:/DOCS/bootstrapPortfolio/index.html"
+                            class="btn btn-secondary">Visita el
+                            sitio</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; Fran Hasenuer</p>
+            </div>
+        </footer>
+    </main>
     <script>
         AOS.init();
     </script>

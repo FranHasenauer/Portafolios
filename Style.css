@@ -1,7 +1,14 @@
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.Body.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
+
 body {
     margin: 0 px;
     background: rgb(240, 210, 160);
 }
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.NavBar.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
+
+
+
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.Background.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .bg {
     text-align: center;
     padding: 10px;
@@ -10,9 +17,7 @@ body {
     box-sizing: border-box;
     filter: blur(8px);
 }
-.card-body {
-    padding: 2rem 1rem;
-}
+
 .bg-text {
     color: rgb(240, 210, 160);
     font-weight: bold;
@@ -24,36 +29,60 @@ body {
     z-index: 2;
     width: 40%;
     padding: 20px;
-    text-align: center;
-    font-family: 'Hurricane', cursive;
-}
-.custom-section { 
-    padding-top: 2rem;
-    width: 18rem;
-    height: 18rem;
-}
-.img-card {
-    width: 100%;
-    height: 100%;
     
-}
-.card-title {
-    font-family: 'League Gothic', sans-serif;
-}
-.card-text {
-    font-family: 'Ramaraja', serif;
-}
-footer {
-    background-color: rgb(230, 100, 60);
-    padding: 20px 0px;
-    color: white;
-    margin-top: 40px;
 }
 .home {
     background-image: url("Img/BannerFox.jpg");
     max-width: 100%;
     max-height: 100%;   
 }
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.Switch.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
+.switch {
+     background: #343d5b;
+     border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+margin-right: 2px;
+
+}
+span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: rgb(240, 210, 160);
+
+}
+
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.Section.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
+.container {
+    margin-top: 2rem;
+}
+.custom-section { 
+    padding-top: 2rem;
+    width: 18rem;
+    height: 18rem;
+}
+.card-body {
+    padding: 2rem 1rem;
+}
+
+.img-card {
+    width: 100%;
+    height: 100%;  
+}
+
+.card-title {
+    font-family: 'League Gothic', sans-serif;
+}
+.card-text {
+    font-family: 'Ramaraja', serif;
+}
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.Quien soy?.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .img-perfil {
     max-width: 15rem;
     height: auto;
@@ -65,7 +94,16 @@ footer {
     margin-top: 1rem;
     text-align: center;
     font-weight: bold;
+    font-family: 'Shizuru';
 }
-.container {
-    margin-top: 2rem;
+.central-text {
+    text-align: right;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+footer {
+    background-color: rgb(230, 100, 60);
+    padding: 20px 0px;
+    color: white;
+    margin-top: 40px;
 }
