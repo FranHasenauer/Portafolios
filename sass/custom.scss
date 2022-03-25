@@ -60,29 +60,24 @@ body {
 margin-top: 1rem;
 }
 
-
-
-
-
-
-
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.Background.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .bg {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 10px;
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
-    filter: blur(4px);
+    filter: blur(5px);
+    
+    
+}
+.home {
     background-image: url(../Img/BannerFox.jpg);
-
     body.dark & {
         background-image: url(../Img/BannerFoxDark.jpg);
         
     }
-    
 }
-
 
 
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.Switch.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
