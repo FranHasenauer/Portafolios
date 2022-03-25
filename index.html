@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Hurricane&family=League+Gothic&family=Ramaraja&family=Shizuru&family=Red+Hat+Mono&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Oregano&family=Hurricane&family=League+Gothic&family=Ramaraja&family=Shizuru&family=Nanum+Gothic&family=Red+Hat+Mono&display=swap"
         rel="stylesheet">
     <!-- AOS Scroll Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,17 +24,18 @@
 </head>
 
 <body>
-    <main class="container ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-nav ">
+    <main class="container" id="inicio">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-nav">
             <div class="container">
-                <a target="_blank" class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
-                    <img src="Img/ArgP-Logo.png" alt="" width="50" height="44">
+                <a target="_blank" class="navbar-brand " href="https://argentinaprograma.inti.gob.ar/">
+                    <img class="icon" src="Img/ArgP-Logo.png" alt="" width="50" height="44">
                 </a>
-                Arg. Programa
+                <p class="text">Arg. Programa</p>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,19 +57,20 @@
                     <a target="_blank" class="navbar-brand" href="https://www.instagram.com/fran.hasenauer/">
                         <img src="Img/I-Logo.png" alt="" width="50" height="44">
                     </a>
-                    <input class="btn btn-secondary" type="submit" value="Login">
+                    <input class="btn btn-secondary " type="submit" value="Login">
 
                 </div>
             </div>
         </nav>
         <div class="bg">
+
         </div>
         <div class="container">
             <div class="separador">
                 <h2 id="quienSoy" class="sub-text">¿Quien soy?</h2>
             </div>
 
-            <div class="row">
+            <div class="row ">
                 <div class="col-12 col-lg-4">
                     <img src="Img/img-perfil.jpg" alt="" class="img-perfil border border-4">
                 </div><!--  -->
@@ -99,7 +101,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="row cont-row">
                 <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
                     data-aos-offset="300" data-aos-duration="1000">
                     <img src="Img/card1.jpg" alt="..." class="img-card">
@@ -119,7 +121,7 @@
 
         </section>
         <section class="container">
-            <div class="row">
+            <div class="row cont-row">
                 <div class="col-12 col-md-6">
                     <div class="card-body">
                         <h5 class="card-title">Blog de musica</h5>
@@ -140,7 +142,7 @@
             </div>
         </section>
         <section class="container">
-            <div class="row">
+            <div class="row cont-row">
                 <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
                     data-aos-offset="300" data-aos-duration="1000">
                     <img src="Img/card3.jpeg" alt="..." class="img-card">
@@ -164,7 +166,7 @@
 
         </section>
         <section class="container">
-            <div class="row">
+            <div class="row cont-row">
 
                 <div class="col-12 col-md-6">
                     <div class="card-body">
@@ -187,7 +189,7 @@
             </div>
         </section>
         <section class="container">
-            <div class="row">
+            <div class="row cont-row">
                 <div class="col-12 col-md-6 custom-section" data-aos="flip-right" data-aos-easing="ease-out-cubic"
                     data-aos-offset="300" data-aos-duration="1000">
                     <img src="Img/card5.png" alt="..." class="img-card">
@@ -207,11 +209,11 @@
             </div>
 
         </section>
-        <footer>
-            <div class="container">
+        <div class="container-footer">
+            <footer>
                 <p>&copy; Fran Hasenuer</p>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </main>
     <script>
         AOS.init();

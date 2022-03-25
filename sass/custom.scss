@@ -8,7 +8,7 @@ $principalDark: rgb(0, 0, 0);
 $secundario: rgb(235, 174, 68);
 $secundarioDark: rgb(140, 138, 158);
 
-$boton: rgb(224, 55, 55);    /* rgb(219, 105, 12); */
+$boton:  rgb(219, 105, 12);
 $botonDark: rgb(84, 115, 155);
 
 
@@ -33,36 +33,41 @@ $btn-border-radius: 10px;
 body {
     margin: 0 px;
     background: $principal;
-    transition: .3s ease all;
-
+    transition: 1s ease all;
     &.dark{
         background: $principalDark;
         .bg-nav {
             background-color: $secundarioDark;
         }
+
+        
     }
 }
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.NavBar.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 
-.navbar {
-    width: auto;
-    height: 5rem;
 
-}
 .bg-nav {
     background-color: $secundario;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
 }
+
 .icon {
-    border: 15px;
-    border-color: black;
+    border-radius: 0.3rem;
+    
 }
+.text {
+margin-top: 1rem;
+}
+
+
+
 
 
 
 
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.Background.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .bg {
-    text-align: center;
     margin-top: 1rem;
     padding: 10px;
     height: 100vh;
@@ -82,7 +87,7 @@ body {
 
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.Switch.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .switch {
-    background: rgb(48, 33, 2);
+    background: rgb(207, 141, 7);
     border-radius: 1000px;
     border: none;
     position: relative;
@@ -107,12 +112,14 @@ body {
     }
     
     &.active {
-        background: rgb(236, 191, 94);
+        background: rgb(209, 209, 208);
         color: black;
+        
 
         &::after {
             right: 0;
             left: unset;
+            
         }
     }     
 } 
@@ -135,6 +142,16 @@ span {
 .container {
     margin-top: 2rem;
 }
+.cont-row {
+    background-color: antiquewhite;
+    border-radius: 1.5rem;
+    padding-left: 4rem;
+    body.dark & {
+        background-color: rgb(27, 26, 26);
+        
+    }
+    
+}
 .custom-section { 
     padding-top: 2rem;
     width: 18rem;
@@ -147,15 +164,30 @@ span {
 .img-card {
     width: 100%;
     height: 100%;  
+    border-radius: 2rem;
+    border: solid rgb(70, 64, 15) 3px;
 }
 
 .card-title {
-    font-family: 'League Gothic', sans-serif;
+    font-family: 'Nanum Gothic';
+    text-align: center;
+    text-shadow: rgb(10, 6, 3) 3px 2px 4px;
+    font-size: larger;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    body.dark & {
+        color: rgb(202, 195, 195);
+        text-shadow: rgb(236, 128, 128) 3px 2px 4px;
+    }
 }
 .card-text {
-    font-family: 'Ramaraja', serif;
+    font-family: 'Nanum Gothic';
+    padding: 1rem;
+    margin: 1rem;
+    font-size: larger;
+    color: rgb(110, 70, 0);
     body.dark & {
-        color: whitesmoke;
+        color: rgb(90, 90, 120);
     }
 
 }
@@ -167,27 +199,27 @@ span {
     margin: 2rem;
     border-radius: 2rem;
 }
-.sub-text {
-    margin-top: 1rem;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Shizuru';
-    body.dark & {
-        color: white;
-    }
-}
+
 .central-text {
-    text-align: right;
-    font-family: 'Red Hat Mono', monospace;
+    text-align: right; 
+    color: rgb(110, 70, 0);
+    font-family: 'Oregano';
+    text-shadow: black 2px 1px 7px;
+    body.dark & {
+        color: rgb(90, 90, 120);
+    }
 }
 
 footer {
     background-color: $secundario;
-    padding: 20px 0px;
+    border-radius: 1rem;
+    padding: 1rem;
     color: black;
-    margin-top: 40px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
     width: auto;
-    height: 5rem;
+    height: 3rem;
     
 
     body.dark & {
@@ -197,10 +229,22 @@ footer {
 }
     .separador{
         background-color: $secundario;
+        text-shadow: rgb(10, 6, 3) 3px 2px 4px;
+        border-radius: 15px;
+        margin: 8rem;
 
         body.dark & {
             background-color: $secundarioDark;
-    
+            text-shadow: rgb(70, 68, 68) 3px 2px 4px;
         }
     }
-
+    .sub-text {
+        margin: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Shizuru';
+        body.dark & {
+            color: white;
+        }
+    }
