@@ -192,13 +192,14 @@ span {
     height: auto;
     padding: 7px;
     margin: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    border: solid grey 1px ;
 }
 
 .central-text {
-    text-align: right; 
+    text-align: left; 
     color: rgb(110, 70, 0);
-    font-family: 'Oregano';
+    font-family: 'Roboto';
     text-shadow: black 2px 1px 7px;
     body.dark & {
         color: rgb(90, 90, 120);
