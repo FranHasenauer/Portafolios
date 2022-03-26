@@ -11999,8 +11999,7 @@ body.dark .bg-nav {
   background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  /* filter: blur(5px); */
 }
 
 .home {
