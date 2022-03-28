@@ -21,6 +21,7 @@ $secondary: $boton;
 $btn-border-radius: 10px;
 
 
+
 /////////////////////////////////////////////////
 /* importar bootstrap */
 ////////////////////////////////////////////////
@@ -39,10 +40,33 @@ body {
         .bg-nav {
             background-color: $secundarioDark;
         }
-
-        
     }
 }
+.container .navbar .container .nav-item a:hover {
+    color: black;
+    background-color: $secundario;
+    border: solid rgb(110, 70, 50);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+    body.dark & {
+        color: black;
+    background-color: $secundarioDark;
+    border: solid rgb(39, 38, 37);
+
+    
+    }
+ 
+}
+@media (hover: hover) {
+.container .navbar .container .nav-item a:active {
+    background-color:  rgb(209, 149, 119);
+    body.dark &{
+        background-color:  rgb(204, 196, 192);
+    }
+}
+}
+
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.NavBar.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 
 
@@ -54,11 +78,13 @@ body {
 
 .icon {
     border-radius: 0.3rem;
-    
+        
 }
+
 .text {
 margin-top: 1rem;
 }
+
 
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.Background.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-. */
 .bg {
@@ -137,6 +163,8 @@ span {
 .container {
     margin-top: 2rem;
 }
+
+
 .cont-row {
     background-color: antiquewhite;
     border-radius: 1.5rem;
@@ -217,12 +245,12 @@ footer {
     width: auto;
     height: 3rem;
     
-
     body.dark & {
         background-color: $secundarioDark;
         color: white;
     }
 }
+
     .separador{
         background-color: $secundario;
         text-shadow: rgb(10, 6, 3) 3px 2px 4px;
@@ -244,3 +272,5 @@ footer {
             color: white;
         }
     }
+    
+ 
